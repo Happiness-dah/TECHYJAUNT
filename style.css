@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    margin: 0 5px 0 5px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+nav{
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    z-index: 2;
+}
+nav a{
+    color: white;
+}
+.article1{
+    position: relative;
+    top: 60px;
+}
+.article1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.article1 img{
+    margin-left: 35%;
+}
+
+.article2{
+    position: relative;
+    margin-top: 110px;
+}
+
+.article2 div{
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.article2 p{
+    padding-top: 20px;
+}
+.article3{
+    padding-top: 30px;
+}
+.article3 div{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: 20px;   
+    margin-top: 16px;
+}
+.article4{
+    padding-top: 30px;
+}
+
+.article4 div{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.article4  p{
+    padding-top: 30px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.article5 div{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.article5 p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*footer*/
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #121b25;
+    color: white;
+    padding: 80px 13px 70px;
+}
+
+.contain{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    gap: 3.0rem;
+    background: #1a242f;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+footer a{
+    color: aliceblue;
+    background-color: none;
+    list-style-type: none;
+    line-height: 10px;
+
+}
+footer p{
+    bottom: 0;
+}
+/*Contact us*/
+.form_house{
+    position: relative;
+    padding-top: 70px;
+
+}
+.form_house form{
+    box-sizing: border-box;
+    border-radius: 4%;
+}
